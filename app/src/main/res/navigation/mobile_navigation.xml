@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="ru.mertsalovda.travelapp.ui.search.SearchFragment"
+        tools:layout="@layout/fr_search" />
+
+    <fragment
+        android:id="@+id/navigation_trips"
+        android:name="ru.mertsalovda.travelapp.ui.trips.TripsFragment"
+        tools:layout="@layout/fr_trips" />
+
+    <fragment
+        android:id="@+id/navigation_bookmarks"
+        android:name="ru.mertsalovda.travelapp.ui.bookmarks.BookmarksFragment"
+        tools:layout="@layout/fr_bookmarks" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="ru.mertsalovda.travelapp.ui.settings.SettingsFragment"
+        tools:layout="@layout/fr_settings" />
+</navigation>

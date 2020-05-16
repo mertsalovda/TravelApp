@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search">SEARCH</string>
+    <string name="trips">TRIPS</string>
+    <string name="bookmarks">BOOKMARKS</string>
+    <string name="settings">SETTINGS</string>
+    <string name="title_search">Location for you</string>
+    <string name="moscow">Moscow</string>
+    <string name="krd">Krasnodar</string>
+    <string name="spb">St. Petersburg</string>
+    <string name="saratov">Saratov</string>
+    <string name="voronezh">Voronezh</string>
+    <string name="novosibirsk">Novosibirsk</string>
+    <string name="kazan">Kazan</string>
+    <string name="anapa">Anapa</string>
+    <string name="sochi">Sochi</string>
+    <string name="armavir">Armavir</string>
+    <string name="yekaterinburg">Yekaterinburg</string>
+    <string name="orel">Orel</string>
+    <string name="ufa">Ufa</string>
+    <string name="smolensk">Smolensk</string>
+    <string name="days">DAYS</string>
+    <string name="price">596</string>
+    <string name="$">$</string>
+
+</resources>
