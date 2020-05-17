@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.viewpager.widget.ViewPager
@@ -44,7 +43,6 @@ class SearchFragment : Fragment() {
         viewPager.adapter = adapter
         viewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
             override fun onPageScrollStateChanged(state: Int) {}
-
             override fun onPageScrolled(
                 position: Int,
                 positionOffset: Float,
@@ -55,7 +53,6 @@ class SearchFragment : Fragment() {
             override fun onPageSelected(position: Int) {
                 tvCounter.text = (1 + position).toString()
             }
-
         })
     }
 }
