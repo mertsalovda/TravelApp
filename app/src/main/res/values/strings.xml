@@ -26,5 +26,6 @@
     <string name="price">596</string>
     <string name="dollar">$</string>
     <string name="russia">Russia</string>
+    <string name="to_author_page">На страницу автора дизайна</string>
 
 </resources>
