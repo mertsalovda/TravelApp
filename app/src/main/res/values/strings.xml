@@ -24,6 +24,6 @@
     <string name="smolensk">Smolensk</string>
     <string name="days">DAYS</string>
     <string name="price">596</string>
-    <string name="$">$</string>
+    <string name="dollar">$</string>
 
 </resources>

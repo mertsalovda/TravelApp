@@ -17,11 +17,10 @@
             android:id="@+id/ivCity"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:alpha="0.85"
+            android:alpha="0.80"
             android:scaleType="centerCrop"
             tools:layout_editor_absoluteX="49dp"
-            tools:layout_editor_absoluteY="137dp"
-            tools:src="@drawable/city_2_krasnodar" />
+            tools:layout_editor_absoluteY="137dp" />
 
         <TextView
             android:id="@+id/tvCity"
@@ -30,7 +29,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:textColor="@color/secondaryTextColor"
-            android:textSize="28sp"
+            android:textSize="40sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -40,11 +39,10 @@
             android:id="@+id/tvState"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/primaryTextColor"
+            android:text="Russia"
+            android:textColor="@color/secondaryTextColor"
             app:layout_constraintStart_toStartOf="@+id/tvCity"
-            app:layout_constraintTop_toBottomOf="@+id/tvCity"
-            tools:text="Russia" />
+            app:layout_constraintTop_toBottomOf="@+id/tvCity" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -60,9 +58,9 @@
             android:id="@+id/guideline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/primaryTextColor"
+            android:background="@color/primaryDark"
             android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.15" />
+            app:layout_constraintGuide_begin="92dp" />
 
         <TextView
             android:id="@+id/tvCountDays"
@@ -70,12 +68,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="4dp"
+            android:text="6"
             android:textColor="@color/secondaryTextColor"
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline"
-            android:text="6" />
+            app:layout_constraintTop_toTopOf="@+id/guideline" />
 
         <TextView
             android:id="@+id/tvTextDays"
@@ -105,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="@string/$"
+            android:text="@string/dollar"
             android:textColor="@color/secondaryTextColor"
             app:layout_constraintEnd_toStartOf="@+id/tvPrice"
             app:layout_constraintTop_toTopOf="@+id/tvPrice" />
