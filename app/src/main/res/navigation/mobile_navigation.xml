@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/navigation_search"
         android:name="ru.mertsalovda.travelapp.ui.search.SearchFragment"
-        tools:layout="@layout/fr_search" />
+        tools:layout="@layout/fr_search"></fragment>
 
     <fragment
         android:id="@+id/navigation_trips"
@@ -24,4 +24,12 @@
         android:id="@+id/navigation_settings"
         android:name="ru.mertsalovda.travelapp.ui.settings.SettingsFragment"
         tools:layout="@layout/fr_settings" />
+    <fragment
+        android:id="@+id/navigation_details"
+        android:name="ru.mertsalovda.travelapp.ui.details.DetailsFragment"
+        android:label="fr_details"
+        tools:layout="@layout/fr_details" />
+    <action
+        android:id="@+id/action_global_navigation_details"
+        app:destination="@id/navigation_details" />
 </navigation>
