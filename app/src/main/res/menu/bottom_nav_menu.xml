@@ -5,21 +5,25 @@
     <item
         android:id="@+id/navigation_search"
         android:icon="@drawable/ic_search_black_24dp"
-        android:title="@string/search" />
+        android:title="@string/search"
+        app:showAsAction="withText"/>
 
     <item
         android:id="@+id/navigation_trips"
         android:icon="@drawable/ic_compass_outline"
-        android:title="@string/trips" />
+        android:title="@string/trips"
+        app:showAsAction="withText" />
 
     <item
         android:id="@+id/navigation_bookmarks"
         android:icon="@drawable/ic_bookmark_border_black_24dp"
-        android:title="@string/bookmarks" />
+        android:title="@string/bookmarks"
+        app:showAsAction="withText" />
 
     <item
         android:id="@+id/navigation_settings"
         android:icon="@drawable/ic_settings_outline"
-        android:title="@string/settings" />
+        android:title="@string/settings"
+        app:showAsAction="withText" />
 
 </menu>
