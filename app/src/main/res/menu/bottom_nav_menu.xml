@@ -9,7 +9,7 @@
 
     <item
         android:id="@+id/navigation_trips"
-        android:icon="@drawable/ic_explore_black_24dp"
+        android:icon="@drawable/ic_compass_outline"
         android:title="@string/trips" />
 
     <item
@@ -19,7 +19,7 @@
 
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_settings_black_24dp"
+        android:icon="@drawable/ic_settings_outline"
         android:title="@string/settings" />
 
 </menu>

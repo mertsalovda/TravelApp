@@ -21,7 +21,7 @@
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_airplanemode_active_black_48dp" />
+            app:srcCompat="@drawable/ic_airplane_outline" />
 
         <TextView
             android:id="@+id/textView"
