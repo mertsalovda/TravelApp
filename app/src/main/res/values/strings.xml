@@ -37,6 +37,7 @@ Place contextual actions to the right of navigation
 Place an overflow menu (if used) to the far right
 For right-to-left languages, placement positions should be flipped.</string>
     <string name="open_in">open in</string>
+    <string name="tip">TIP</string>
 
 
 </resources>

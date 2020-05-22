@@ -10,4 +10,14 @@
         <item name="colorControlActivated">#edcc61</item>
     </style>
 
+    <style name="DarkTextSizeOne">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LightTextSizeTwo">
+        <item name="android:textColor">@color/lightGray</item>
+    </style>
+
 </resources>

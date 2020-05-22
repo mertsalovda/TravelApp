@@ -24,16 +24,90 @@
             app:expandedTitleMarginStart="48dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
 
-            <ImageView
-                android:id="@+id/backdrop"
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:alpha="0.75"
                 android:fitsSystemWindows="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/city_2_krasnodar"
                 app:layout_collapseMode="parallax"
-                app:layout_collapseParallaxMultiplier="0.5" />
+                app:layout_collapseParallaxMultiplier="0.5">
+
+                <ImageView
+                    android:id="@+id/ivCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.75"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/city_2_krasnodar" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_begin="?android:actionBarSize" />
+
+                <TextView
+                    android:id="@+id/tvCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="64dp"
+                    android:text="@string/krd"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+                <TextView
+                    android:id="@+id/tvState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/russia"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@+id/tvCity"
+                    app:layout_constraintTop_toBottomOf="@+id/tvCity" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="16dp"
+                    android:alpha="0.3"
+                    android:background="@color/secondaryTextColor"
+                    app:layout_constraintBottom_toTopOf="@+id/chip2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/tvState"
+                    app:layout_constraintTop_toBottomOf="@+id/tvState" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip2"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/tip"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:chipBackgroundColor="@color/gGradientStart"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/view" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Average daily budget ~$45"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/chip2"
+                    app:layout_constraintStart_toEndOf="@+id/chip2"
+                    app:layout_constraintTop_toTopOf="@+id/chip2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/toolbar"
@@ -54,9 +128,9 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <include layout="@layout/cv_flight" />
             <include layout="@layout/cv_hotel" />
 
-            <include layout="@layout/cv_flight" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
