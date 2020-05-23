@@ -60,7 +60,7 @@
                     app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
                 <TextView
-                    android:id="@+id/tvState"
+                    android:id="@+id/tvCountry"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
@@ -80,8 +80,8 @@
                     android:background="@color/secondaryTextColor"
                     app:layout_constraintBottom_toTopOf="@+id/chip2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/tvState"
-                    app:layout_constraintTop_toBottomOf="@+id/tvState" />
+                    app:layout_constraintStart_toStartOf="@+id/tvCountry"
+                    app:layout_constraintTop_toBottomOf="@+id/tvCountry" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chip2"

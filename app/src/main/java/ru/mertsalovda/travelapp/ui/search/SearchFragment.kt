@@ -7,20 +7,18 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
-import androidx.navigation.findNavController
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.fr_search.*
+import ru.mertsalovda.travelapp.App
 import ru.mertsalovda.travelapp.R
-import ru.mertsalovda.travelapp.model.CityItem
 
 class SearchFragment : Fragment() {
 
     private lateinit var searchViewModel: SearchViewModel
 
     private lateinit var adapter: CityAdapter
-    private var models = CityItem.values()
-    private var dotscount = 0
+    private var models = App.getDB().getAllItem()
 
     override fun onCreateView(
         inflater: LayoutInflater,
