@@ -15,7 +15,7 @@
         android:paddingBottom="16dp">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -25,7 +25,7 @@
             app:srcCompat="@drawable/ic_airplane_outline" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -33,20 +33,20 @@
             android:text="FLIGHT FOR YOU"
             android:textColor="@color/primaryTextColor"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toEndOf="@+id/imageView01"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Jul 27 - Aug 2, 2017"
             style="@style/LightTextSizeTwo"
-            app:layout_constraintStart_toStartOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toStartOf="@+id/textView01"
+            app:layout_constraintTop_toBottomOf="@+id/textView01" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButton02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -57,14 +57,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline5"
+            android:id="@+id/guideline05"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintGuide_begin="65dp" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline6"
+            android:id="@+id/guideline06"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -73,166 +73,166 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/textView09"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="Outbound"
             android:textColor="@color/primaryTextColor"
-            app:layout_constraintStart_toStartOf="@+id/imageView"
-            app:layout_constraintTop_toTopOf="@+id/guideline5" />
+            app:layout_constraintStart_toStartOf="@+id/imageView01"
+            app:layout_constraintTop_toTopOf="@+id/guideline05" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageView04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView9"
-            app:layout_constraintEnd_toStartOf="@+id/guideline6"
-            app:layout_constraintTop_toTopOf="@+id/textView9"
+            app:layout_constraintBottom_toBottomOf="@+id/textView09"
+            app:layout_constraintEnd_toStartOf="@+id/guideline06"
+            app:layout_constraintTop_toTopOf="@+id/textView09"
             app:srcCompat="@drawable/ic_aeroflot" />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/textView010"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:text="Return"
             android:textColor="@color/primaryTextColor"
-            app:layout_constraintStart_toStartOf="@+id/guideline6"
-            app:layout_constraintTop_toTopOf="@+id/guideline5" />
+            app:layout_constraintStart_toStartOf="@+id/guideline06"
+            app:layout_constraintTop_toTopOf="@+id/guideline05" />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageView05"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView10"
+            app:layout_constraintBottom_toBottomOf="@+id/textView010"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView10"
+            app:layout_constraintTop_toTopOf="@+id/textView010"
             app:srcCompat="@drawable/ic_s7_logo" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textView011"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="2:35 pm"
             style="@style/DarkTextSizeOne"
-            app:layout_constraintStart_toStartOf="@+id/textView9"
-            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+            app:layout_constraintStart_toStartOf="@+id/textView09"
+            app:layout_constraintTop_toBottomOf="@+id/textView09" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textView012"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Warsaw (WAW)"
             style="@style/LightTextSizeTwo"
-            app:layout_constraintStart_toStartOf="@+id/textView11"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+            app:layout_constraintStart_toStartOf="@+id/textView011"
+            app:layout_constraintTop_toBottomOf="@+id/textView011" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/imageView07"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView12"
-            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintBottom_toBottomOf="@+id/textView012"
+            app:layout_constraintEnd_toStartOf="@+id/guideline06"
             app:srcCompat="@drawable/ic_flight_takeoff_black_24dp" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/textView013"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="7:15 pm"
             style="@style/DarkTextSizeOne"
-            app:layout_constraintStart_toStartOf="@+id/textView12"
-            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+            app:layout_constraintStart_toStartOf="@+id/textView012"
+            app:layout_constraintTop_toBottomOf="@+id/textView012" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textView014"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Barcelona (BCN)"
             style="@style/LightTextSizeTwo"
-            app:layout_constraintStart_toStartOf="@+id/textView13"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+            app:layout_constraintStart_toStartOf="@+id/textView013"
+            app:layout_constraintTop_toBottomOf="@+id/textView013" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imageView06"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView14"
-            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintBottom_toBottomOf="@+id/textView014"
+            app:layout_constraintEnd_toStartOf="@+id/guideline06"
             app:srcCompat="@drawable/ic_flight_land_black_24dp" />
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/textView017"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="8:45 pm"
             style="@style/DarkTextSizeOne"
-            app:layout_constraintStart_toStartOf="@+id/textView16"
-            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+            app:layout_constraintStart_toStartOf="@+id/textView016"
+            app:layout_constraintTop_toBottomOf="@+id/textView016" />
 
         <TextView
-            android:id="@+id/textView18"
+            android:id="@+id/textView018"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Warsaw (WAW)"
             style="@style/LightTextSizeTwo"
-            app:layout_constraintStart_toStartOf="@+id/textView17"
-            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+            app:layout_constraintStart_toStartOf="@+id/textView017"
+            app:layout_constraintTop_toBottomOf="@+id/textView017" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView16"
+            app:layout_constraintBottom_toBottomOf="@+id/textView016"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/ic_flight_takeoff_black_24dp" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/textView015"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="3:40 pm"
             style="@style/DarkTextSizeOne"
-            app:layout_constraintStart_toStartOf="@+id/textView10"
-            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+            app:layout_constraintStart_toStartOf="@+id/textView010"
+            app:layout_constraintTop_toBottomOf="@+id/textView010" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/textView016"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Barcelona (BCN)"
             style="@style/LightTextSizeTwo"
-            app:layout_constraintStart_toStartOf="@+id/textView15"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            app:layout_constraintStart_toStartOf="@+id/textView015"
+            app:layout_constraintTop_toBottomOf="@+id/textView015" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView18"
+            app:layout_constraintBottom_toBottomOf="@+id/textView018"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/ic_flight_land_black_24dp" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/view2"
+            android:id="@+id/view02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintGuide_begin="210dp" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/textView07"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
@@ -240,8 +240,8 @@
             android:textColor="@color/primaryTextColor"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/textView14"
-            app:layout_constraintTop_toBottomOf="@+id/view2" />
+            app:layout_constraintStart_toStartOf="@+id/textView014"
+            app:layout_constraintTop_toBottomOf="@+id/view02" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -250,8 +250,8 @@
             android:text="View all>"
             android:textColor="@color/primaryTextColor"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/textView7"
+            app:layout_constraintBottom_toBottomOf="@+id/textView07"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView7" />
+            app:layout_constraintTop_toTopOf="@+id/textView07" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

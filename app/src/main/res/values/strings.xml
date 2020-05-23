@@ -38,6 +38,8 @@ Place an overflow menu (if used) to the far right
 For right-to-left languages, placement positions should be flipped.</string>
     <string name="open_in">open in</string>
     <string name="tip">TIP</string>
+    <string name="incl_taxes_fees"><![CDATA[(Incl. Taxes & Fees)]]></string>
+    <string name="flight_hotel_for"><![CDATA[Flight & Hotel for]]></string>
 
 
 </resources>

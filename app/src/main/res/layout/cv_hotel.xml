@@ -15,7 +15,7 @@
         android:paddingBottom="16dp">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -25,7 +25,7 @@
             app:srcCompat="@drawable/ic_bed_outline" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -33,7 +33,7 @@
             android:text="HOTEL FOR YOU"
             android:textColor="@color/primaryTextColor"
             android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toEndOf="@+id/imageView01"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -43,21 +43,21 @@
             android:text="6 days,"
             android:textColor="@color/primaryTextColor"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toStartOf="@+id/textView01"
+            app:layout_constraintTop_toBottomOf="@+id/textView01" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView04"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="Jul 27 - Aug 2, 2017"
             style="@style/LightTextSizeTwo"
             app:layout_constraintStart_toEndOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/textView01" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButton02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -76,7 +76,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView01" />
 
         <TextView
             android:id="@+id/textView3"
@@ -162,7 +162,7 @@
             app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/textView07"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginStart="8dp"
@@ -180,8 +180,8 @@
             android:layout_height="wrap_content"
             android:text="/6 days"
             android:textColor="@color/primaryTextColor"
-            app:layout_constraintBottom_toBottomOf="@+id/textView7"
-            app:layout_constraintStart_toEndOf="@+id/textView7" />
+            app:layout_constraintBottom_toBottomOf="@+id/textView07"
+            app:layout_constraintStart_toEndOf="@+id/textView07" />
 
         <TextView
             android:textStyle="bold"
