@@ -55,6 +55,7 @@ class DetailsFragment : Fragment() {
             val snackbar: Snackbar = Snackbar.make(it, "Добавлено в корзину", Snackbar.LENGTH_LONG)
             snackbar.setAction("hide") { v -> v.visibility = View.GONE }
             snackbar.duration = 7000
+            snackbar.setAnchorView(R.id.bottomPanel)
             snackbar.show()
         }
     }

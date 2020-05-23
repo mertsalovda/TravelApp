@@ -128,15 +128,14 @@
     </androidx.core.widget.NestedScrollView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/bottomPanel"
         android:layout_width="match_parent"
         android:layout_height="@dimen/bottomPanel_70dp"
         android:layout_gravity="bottom"
         android:background="@color/white"
-        app:cardElevation="@dimen/dimens_8dp"
-        app:layout_behavior=".ui.behavior.CardViewBehavior">
+        app:cardElevation="@dimen/dimens_8dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/bottomPanel"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
