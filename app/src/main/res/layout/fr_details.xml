@@ -139,7 +139,7 @@
         android:layout_height="@dimen/bottomPanel_70dp"
         android:layout_gravity="bottom"
         android:background="@color/white"
-        app:cardElevation="@dimen/dimens_8dp">
+        app:cardElevation="8dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

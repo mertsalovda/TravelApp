@@ -12,6 +12,7 @@
     <color name="gGradientEnd">#6d74ac</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="yellow">#edcc61</color>
 
     <color name="primaryTextColor">#37474f</color>
     <color name="secondaryTextColor">#002c40</color>
