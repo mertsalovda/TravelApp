@@ -40,6 +40,7 @@ For right-to-left languages, placement positions should be flipped.</string>
     <string name="tip">TIP</string>
     <string name="incl_taxes_fees"><![CDATA[(Incl. Taxes & Fees)]]></string>
     <string name="flight_hotel_for"><![CDATA[Flight & Hotel for]]></string>
+    <string name="search_hint">Search in trips</string>
 
 
 </resources>

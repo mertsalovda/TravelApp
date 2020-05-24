@@ -15,9 +15,10 @@ import ru.mertsalovda.travelapp.R
 import ru.mertsalovda.travelapp.model.CityItem
 import ru.mertsalovda.travelapp.ui.details.DetailsFragment
 
-class CityAdapter(private val listItems: MutableList<CityItem>, private val context: Context) :
+class CityAdapter(private val context: Context) :
     PagerAdapter() {
 
+    private val listItems: MutableList<CityItem> = mutableListOf()
     private lateinit var layoutInflater: LayoutInflater
 
     override fun isViewFromObject(view: View, `object`: Any) = view == `object`
@@ -53,5 +54,17 @@ class CityAdapter(private val listItems: MutableList<CityItem>, private val cont
 
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
         container.removeView(`object` as View)
+    }
+
+    override fun getItemPosition(`object`: Any): Int {
+        return POSITION_NONE
+    }
+
+    fun updateData(data: MutableList<CityItem>, clear: Boolean){
+        if (clear){
+            listItems.clear()
+        }
+        listItems.addAll(data)
+        notifyDataSetChanged()
     }
 }

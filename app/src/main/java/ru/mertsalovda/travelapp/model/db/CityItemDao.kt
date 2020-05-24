@@ -10,7 +10,11 @@ class CityItemDao : DAO<CityItem> {
     }
     override fun delete(item: CityItem) = list.remove(item)
 
-    override fun getAllItem() = list
+    override fun getAllItem(): MutableList<CityItem> {
+        val result = mutableListOf<CityItem>()
+        result.addAll(list)
+        return result
+    }
 
     override fun getItemByIndex(index: Int) = list[index]
 }

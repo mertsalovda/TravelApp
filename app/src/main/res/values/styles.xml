@@ -2,7 +2,6 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -11,6 +10,11 @@
     <style name="YellowSmallRatingBar">
         <item name="colorControlActivated">@color/yellow</item>
         <item name="android:ratingBarStyle">@style/Widget.AppCompat.RatingBar.Small</item>
+    </style>
+
+    <style name="SearchViewStyle">
+        <item name="android:colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
     </style>
 
     <style name="DarkTextSizeOne">
