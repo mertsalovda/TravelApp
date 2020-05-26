@@ -1,5 +1,5 @@
 # TravelApp
-<h>Пример вёрстки приложения с использованием Material Design Component.</h>
+<h>Пример вёрстки приложения с использованием Material Design Component.<br></h>
 <h>Ссылка на страницу автора дизайна https://dribbble.com/shots/3891457-Travel-App</h>
 
 <p>
